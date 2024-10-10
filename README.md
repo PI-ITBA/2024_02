@@ -9,3 +9,28 @@ Para poder mostrar codigo formateado y con syntax highlighting se hace ingresand
 \**`el codigo`*\*
 
 \`\`\`
+
+La c indica el lenguaje, esto permite el highlighting
+
+De esta manera al ingresar:
+
+\`\`\`c
+
+#include <stdio.h>\
+int main() {\
+&emsp; printf("Hello World!\n");\
+&emsp; return 0;\
+}
+
+\`\`\`
+
+Se ve 
+```c
+
+#include <stdio.h>
+int main() {
+    printf("Hello World!\n");
+    return 0;
+}
+
+```
